@@ -18,7 +18,7 @@
     "P": {"name": "Hauz Khas", "coords": [28.5539, 77.2081]},
     "Q": {"name": "Green Park", "coords": [28.5642, 77.2034]},
     "R": {"name": "Saket", "coords": [28.5285, 77.2069]},
-    "S": {"name": "Kalkaji", "coords": [28.54, 77.25]},
+    "S": {"name": "Nitika Nagar", "coords": [28.54, 77.25]},
     "T": {"name": "Nehru Place", "coords": [28.547, 77.251]}
   },
   "edges": [
@@ -62,3 +62,4 @@
     {"from": "I", "to": "J", "weight": 5}
   ]
 }
+
