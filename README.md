@@ -109,10 +109,10 @@ SmartCityTrafficFlowOptimizer/
 Team Contributions
 This project was developed collaboratively by 4 team members:
 
-Member 1 (Algorithm Engineer): Graph data structures, Dijkstra optimization, unit testing(Ankit vaniya B24CM1064)
-Member 2 (Simulation Engineer): Traffic simulation engine, file I/O, system integration(Priyansu rajput B24CM1083)
-Member 3 (Frontend Developer): Web interface, map integration, JSON export, user experience(Sai manav B24EE1066)
-Member 4 (Integration Lead): Documentation, build system, project coordination, utilities(Suvarn patil)(B24CS1073)
+Member 1 : Graph data structures, Dijkstra optimization, unit testing (Suvarn patil B24CS1073)
+Member 2 : Traffic simulation engine, file I/O, system integration(Priyansu rajput B24CM1083)
+Member 3 : Web interface, map integration, JSON export, user experience(Sai manav B24EE1066)
+Member 4 : Documentation, build system, project coordination, utilities(Ankit vaniya B24CM1064)
 
 
 Technology Stack
