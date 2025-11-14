@@ -40,7 +40,7 @@ inline void writeGraphJson(const Graph& g, const std::string& path) {
         {'P', {"Hauz Khas", 28.5539, 77.2081}},
         {'Q', {"Green Park", 28.5642, 77.2034}},
         {'R', {"Saket", 28.5285, 77.2069}},
-        {'S', {"Kalkaji", 28.5400, 77.2500}},
+        {'S', {"Nitika Nagar", 28.5400, 77.2500}},
         {'T', {"Nehru Place", 28.5470, 77.2510}}
     };
     for (char u : g.nodes()) {
