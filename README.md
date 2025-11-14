@@ -60,9 +60,9 @@ Traffic Sim: Use "Simulate Traffic" for real-time congestion updates
 
 
 Traffic Visualization
-🟢 Dark Green (#006400): Light traffic (weight ≤ 10 minutes)
-🟠 Firebrick Red (#B22222): Moderate traffic (11-15 minutes)
-🔴 Maroon (#800000): Heavy traffic (weight > 15 minutes)
+ Dark Green (#006400): Light traffic (weight ≤ 10 minutes)
+ Firebrick Red (#B22222): Moderate traffic (11-15 minutes)
+ Maroon (#800000): Heavy traffic (weight > 15 minutes)
 
 
 Line Thickness: 4px for traffic edges, 6px for route lines
@@ -221,4 +221,4 @@ Delhi traffic authorities for realistic traffic patterns
 Open source community for inspiring tools and libraries
 Built with passion by Team Smart City Optimizers
 
-Making urban navigation smarter, one route at a time! 🚦
+Making urban navigation smarter, one route at a time! 
