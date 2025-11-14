@@ -1,0 +1,123 @@
+[34mLoading Smart City graph...[0m
+[33mInitializing modules...[0m
+[                      ] 0%[#                     ] 4%[##                    ] 9%[###                   ] 13%[####                  ] 18%[#####                 ] 22%[######                ] 27%[#######               ] 31%[########              ] 36%[#########             ] 40%[##########            ] 45%[###########           ] 50%[############          ] 54%[#############         ] 59%[##############        ] 63%[###############       ] 68%[################      ] 72%[#################     ] 77%[##################    ] 81%[###################   ] 86%[####################  ] 90%[##################### ] 95%[######################] 100%
+===============================
+ [32mSMART CITY TRAFFIC OPTIMIZER[0m
+===============================
+1. Display City Map
+2. Find Shortest Route
+3. Simulate Traffic
+4. View Route History
+5. Visualize Path
+6. Exit
+Select option: [33mRendering city...[0m
+[                      ] 0%[#                     ] 4%[##                    ] 9%[###                   ] 13%[####                  ] 18%[#####                 ] 22%[######                ] 27%[#######               ] 31%[########              ] 36%[#########             ] 40%[##########            ] 45%[###########           ] 50%[############          ] 54%[#############         ] 59%[##############        ] 63%[###############       ] 68%[################      ] 72%[#################     ] 77%[##################    ] 81%[###################   ] 86%[####################  ] 90%[##################### ] 95%[######################] 100%
+[34m
+    CITY MAP[0m
+                                        
+                                        
+    A-------------B           F         
+    |             |/ \        |         
+    |             | /         |         
+    |             |\ /        |         
+    C-------------D           E         
+     /                       \|         
+      /                     \ |         
+       /                   \  |         
+        /                 \   |         
+            G-----------------H         
+                        \    \          
+                       \    \           
+      I-------------J                   
+                                        
+                                        
+
+Press Enter to continue...===============================
+ [32mSMART CITY TRAFFIC OPTIMIZER[0m
+===============================
+1. Display City Map
+2. Find Shortest Route
+3. Simulate Traffic
+4. View Route History
+5. Visualize Path
+6. Exit
+Select option: Enter source (A-J): Enter destination (A-J): [33mFinding route...[0m
+[                      ] 0%[#                     ] 4%[##                    ] 9%[###                   ] 13%[####                  ] 18%[#####                 ] 22%[######                ] 27%[#######               ] 31%[########              ] 36%[#########             ] 40%[##########            ] 45%[###########           ] 50%[############          ] 54%[#############         ] 59%[##############        ] 63%[###############       ] 68%[################      ] 72%[#################     ] 77%[##################    ] 81%[###################   ] 86%[####################  ] 90%[##################### ] 95%[######################] 100%
++------+-----------+
+| Node | Distance |
++------+-----------+
+|  A   | 0         |
+|  B   | 4         |
+|  C   | 3         |
+|  D   | 5         |
+|  E   | 10         |
+|  F   | 9         |
+|  G   | 8         |
+|  H   | 12         |
+|  I   | 12         |
+|  J   | 15         |
++------+-----------+
+[32mShortest Path: [0mA -> C -> G -> H -> J
+Time: 15 minutes
+[34m
+    CITY MAP[0m
+                                        
+                                        
+    A-------------B           F         
+    |             |/ \        |         
+    |             | /         |         
+    |             |\ /        |         
+    C-------------D           E         
+     /                       \|         
+      /                     \ |         
+       /                   \  |         
+        /                 \   |         
+            G-----------------H         
+                        \    \          
+                       \    \           
+      I-------------J                   
+                                        
+                                        
+[36m
+Path: A -> C -> G -> H -> J[0m
+[32mSaved to history.[0m
+
+Press Enter to continue...===============================
+ [32mSMART CITY TRAFFIC OPTIMIZER[0m
+===============================
+1. Display City Map
+2. Find Shortest Route
+3. Simulate Traffic
+4. View Route History
+5. Visualize Path
+6. Exit
+Select option: [33mUpdating road conditions...[0m
+[                      ] 0%[#                     ] 4%[##                    ] 9%[###                   ] 13%[####                  ] 18%[#####                 ] 22%[######                ] 27%[#######               ] 31%[########              ] 36%[#########             ] 40%[##########            ] 45%[###########           ] 50%[############          ] 54%[#############         ] 59%[##############        ] 63%[###############       ] 68%[################      ] 72%[#################     ] 77%[##################    ] 81%[###################   ] 86%[####################  ] 90%[##################### ] 95%[######################] 100%
+[31mTraffic increased on E-F by 4 min. New=7[0m
+[31mTraffic increased on F-H by 6 min. New=12[0m
+[31mTraffic increased on H-J by 2 min. New=5[0m
+[31mTraffic increased on B-D by 2 min. New=7[0m
+
+Press Enter to continue...===============================
+ [32mSMART CITY TRAFFIC OPTIMIZER[0m
+===============================
+1. Display City Map
+2. Find Shortest Route
+3. Simulate Traffic
+4. View Route History
+5. Visualize Path
+6. Exit
+Select option: Past Routes:
+- # Route history will be appended here at runtime.
+- 2025-11-13 21:50:48 | A->C->G->H->J | 15 min
+
+Press Enter to continue...===============================
+ [32mSMART CITY TRAFFIC OPTIMIZER[0m
+===============================
+1. Display City Map
+2. Find Shortest Route
+3. Simulate Traffic
+4. View Route History
+5. Visualize Path
+6. Exit
+Select option: [32mGoodbye![0m
