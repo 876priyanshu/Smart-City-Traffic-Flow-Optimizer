@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart City Traffic Flow Optimizer</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Smart City Traffic Flow Optimizer</h1>
+        <p>Interactive map + C++ routing engine</p>
+    </header>
+    <main>
+        <section class="controls">
+            <label for="source">Source:</label>
+            <select id="source"></select>
+            <label for="dest">Destination:</label>
+            <select id="dest"></select>
+            <button id="routeBtn">Find Route</button>
+            <button id="altRoutesBtn">Alternative Routes</button>
+            <button id="heatmapBtn">Traffic Heatmap</button>
+            <button id="animateBtn">Animate Path</button>
+            <button id="simBtn">Simulate Traffic</button>
+            <button id="resetBtn">Reset</button>
+        </section>
+        <section class="map-container">
+            <div id="map"></div>
+        </section>
+        <section class="info">
+            <h3>Route Info</h3>
+            <pre id="routeInfo">Select source and destination to see the shortest path.</pre>
+        </section>
+        <section class="history">
+            <h3>Route History</h3>
+            <ul id="historyList"></ul>
+        </section>
+        <section class="stats">
+            <h3>Traffic Statistics</h3>
+            <div id="statsPanel">
+                <p>Total Nodes: <span id="totalNodes">0</span></p>
+                <p>Total Edges: <span id="totalEdges">0</span></p>
+                <p>Average Traffic: <span id="avgTraffic">0</span></p>
+                <p>Congested Roads: <span id="congestedRoads">0</span></p>
+            </div>
+        </section>
+        <section class="comparison">
+            <h3>Route Comparison</h3>
+            <div id="routeComparison">
+                <p>Find routes to compare different paths.</p>
+            </div>
+        </section>
+        <section class="alerts">
+            <h3>Traffic Alerts</h3>
+            <div id="trafficAlerts">
+                <p>🚦 No traffic alerts currently.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Built with C++ core + Leaflet.js map</p>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
