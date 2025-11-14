@@ -39,7 +39,7 @@ g++ -std=c++17 -o bin/traffic_optimizer src/*.cpp
 # Run the console application
 ./bin/traffic_optimizer.exe
 
-# Follow the menu options to:
+# these are the features
 # 1. Display city map
 # 2. Find shortest route
 # 3. Simulate traffic
