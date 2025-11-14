@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#e8f4fd"/>
+  <text x="200" y="30" text-anchor="middle" font-size="18" fill="#2c3e50">Smart City Map (Demo)</text>
+  <!-- Roads -->
+  <line x1="80" y1="80" x2="320" y2="80" stroke="#95a5a6" stroke-width="4"/>
+  <line x1="80" y1="80" x2="80" y2="320" stroke="#95a5a6" stroke-width="4"/>
+  <line x1="320" y1="80" x2="320" y2="320" stroke="#95a5a6" stroke-width="4"/>
+  <line x1="80" y1="320" x2="320" y2="320" stroke="#95a5a6" stroke-width="4"/>
+  <line x1="80" y1="80" x2="320" y2="320" stroke="#95a5a6" stroke-width="3"/>
+  <line x1="320" y1="80" x2="80" y2="320" stroke="#95a5a6" stroke-width="3"/>
+  <!-- Nodes -->
+  <circle cx="80" cy="80" r="8" fill="#3498db"/>
+  <circle cx="320" cy="80" r="8" fill="#3498db"/>
+  <circle cx="80" cy="320" r="8" fill="#3498db"/>
+  <circle cx="320" cy="320" r="8" fill="#3498db"/>
+  <circle cx="200" cy="200" r="8" fill="#e74c3c"/>
+  <text x="80" y="70" text-anchor="middle" font-size="12" fill="#2c3e50">A</text>
+  <text x="320" y="70" text-anchor="middle" font-size="12" fill="#2c3e50">B</text>
+  <text x="80" y="340" text-anchor="middle" font-size="12" fill="#2c3e50">C</text>
+  <text x="320" y="340" text-anchor="middle" font-size="12" fill="#2c3e50">D</text>
+  <text x="200" y="190" text-anchor="middle" font-size="12" fill="#2c3e50">E</text>
+</svg>
