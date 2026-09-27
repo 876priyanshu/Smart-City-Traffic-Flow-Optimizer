@@ -20,7 +20,7 @@ inline void simulateTraffic(Graph& g) {
     std::mt19937 gen(rd());
     std::uniform_int_distribution<> dist(-3, 5);
     
-    std::cout << "\n🚦 Simulating traffic...\n";
+    std::cout << "\n Simulating traffic...\n";
     for (auto& e : g.edgesUniqueUndirected()) {
         char u = std::get<0>(e); char v = std::get<1>(e);
         int w = g.getWeight(u, v);
@@ -32,8 +32,8 @@ inline void simulateTraffic(Graph& g) {
     
     // Re-export JSON with updated weights
     writeGraphJson(g, "web/graph.json");
-    std::cout << "\n✅ JSON updated with new traffic data!\n";
-    std::cout << "💡 Refresh the web page to see updated traffic conditions.\n";
+    std::cout << "\n JSON updated with new traffic data!\n";
+    std::cout << " Refresh the web page to see updated traffic conditions.\n";
 }
 
 class TrafficSimulator {
