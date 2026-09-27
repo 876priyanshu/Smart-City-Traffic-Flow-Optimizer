@@ -10,7 +10,7 @@ C G 4
 G H 3
 H I 4
 I J 5
-J K 3
+J K 6
 K L 4
 L M 5
 M N 3
@@ -21,7 +21,7 @@ Q R 4
 R S 5
 S T 3
 T A 4
-A E 5
+A E 2
 C F 4
 E H 3
 G J 5
