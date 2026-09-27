@@ -6,8 +6,6 @@
 #include <iomanip>
 #include <vector>
 
-// JSON exporter for web UI: writes graph.json and route.json
-// Simple handcrafted JSON to avoid external libs.
 
 struct PlaceInfo {
     std::string name;
@@ -20,7 +18,7 @@ inline void writeGraphJson(const Graph& g, const std::string& path) {
     if (!out.is_open()) return;
     out << "{\n  \"nodes\": {\n";
     bool firstNode = true;
-    // Assign real Delhi place names and coordinates (closer together for real roads)
+
     std::unordered_map<char, PlaceInfo> places = {
         {'A', {"Connaught Place", 28.6308, 77.2177}},
         {'B', {"Palika Bazar", 28.6315, 77.2185}},
